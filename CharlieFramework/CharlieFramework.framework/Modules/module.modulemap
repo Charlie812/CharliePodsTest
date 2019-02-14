@@ -1,0 +1,11 @@
+framework module CharlieFramework {
+  umbrella header "CharlieFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module CharlieFramework.Swift {
+    header "CharlieFramework-Swift.h"
+    requires objc
+}
